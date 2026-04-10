@@ -7,5 +7,5 @@ spec:
   - name: nginx
     image: nginx
     envFrom:
-    - cinfigMapRef:
+    - configMapRef:
         name: nginx-configmap
