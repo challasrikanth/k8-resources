@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: env-demo
   namespace: roboshop
 spec:
   containers:
   - name: nginx
     image: nginx
-  env:
-  - name: project
-    value: roboshop
-  - name: environmnet
-    value: dev
+    env:
+    - name: project
+      value: roboshop
+    - name: environmnet
+      value: dev
