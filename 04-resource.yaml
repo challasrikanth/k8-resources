@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+  namespace: roboshop
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+  resources:
+    requests:
+      cpu: "100m"
+      memory: "64mi"
+    limits:
+      memory: "128mi"
+      cpu: "150m"
