@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nginx
 spec:
-  selectors:
+  selector:
     project: roboshop
     component: frontend
     environment: dev
@@ -11,3 +11,7 @@ spec:
   - protocol: tcp
     port: 80
     targetPort: 80
+
+
+    Error from server (BadRequest): error when creating "09-svc.yaml": Service in version "v1" cannot be handled 
+    as a Service: strict decoding error: unknown field "spec.selectors"
