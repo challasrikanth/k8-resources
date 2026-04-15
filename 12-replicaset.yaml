@@ -16,7 +16,7 @@ spec:
       tier: frontend
   template:
     metadata:
-      lables:
+      labels:
         project: roboshop
         purpose: rs-demo
         tier: frontend
