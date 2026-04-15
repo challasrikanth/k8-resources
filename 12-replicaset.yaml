@@ -10,7 +10,7 @@ metadata:
 spec:
   replicas: 3
   selector:
-    matchlabels:
+    matchLabels:
       project: roboshop
       purpose: rs-demo
       tier: frontend
