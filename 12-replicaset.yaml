@@ -14,13 +14,13 @@ spec:
       project: roboshop
       purpose: rs-demo
       tier: frontend
-template:
-  metadata:
-    lables:
-      project: roboshop
-      purpose: rs-demo
-      tier: frontend
-  spec:
-    containers:
-    - name: nginx
-      image: nginx:stable-alpine3.23-perl
+  template:
+    metadata:
+      lables:
+        project: roboshop
+        purpose: rs-demo
+        tier: frontend
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:stable-alpine3.23-perl
